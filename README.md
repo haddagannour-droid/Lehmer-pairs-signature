@@ -1,12 +1,12 @@
 
 # Lehmer Pairs Signature
 
-**Méthode d'Extraction Locale des Dérivées de la Fonction Z de Hardy et Signature Analytique des Paires de Lehmer**
+**Local Extraction Method for the Derivatives of the Hardy Z-Function and Analytical Signature of Lehmer Pairs**
 
-## 📄 Résumé
+##  Abstract
 
-Cette note présente une méthode numérique originale pour l'extraction stable des dérivées de la fonction $Z$ de Hardy $Z(t)$ en un point donné, basée sur des intégrales à double fenêtre combinées à des systèmes linéaires "éponges". Appliquée aux paires de Lehmer (zéros consécutifs anormalement proches de la fonction zêta de Riemann), cette méthode atteint une précision de $10^{-14}$ à $10^{-20}$ sans balayage fin de l'axe réel.
+This note presents an original numerical method for the stable extraction of the derivatives of the Hardy $Z$-function $Z(t)$ at a given point, based on double-window integrals combined with error-absorbing ("sponge") linear systems. Applied to Lehmer pairs (anomalously close consecutive zeros of the Riemann zeta function), this method achieves a precision of $10^{-14}$ to $10^{-20}$ without a fine sweep of the real axis.
 
-Nous introduisons et validons une formule de courbure locale $S(\gamma_n)$. Une étude comparative sur 500 paires normales et 7 paires de Lehmer à haute altitude démontre que la relation $\Delta^2(S(t_1) + S(t_2)) \approx 2$ constitue une **signature analytique unique** des paires de Lehmer.
+We introduce and validate a local curvature formula $S(\gamma_n)$. A comparative study on 500 normal pairs and 7 Lehmer pairs at high altitude demonstrates that the relation $\Delta^2(S(t_1) + S(t_2)) \approx 2$ constitutes a **unique analytical signature** of Lehmer pairs.
 
-## 📂 Structure du dépôt
+## 📂 Repository Structure
