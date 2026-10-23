@@ -74,7 +74,7 @@ Let $\gamma_1 < \gamma_2 < \gamma_3 < \dots$ denote the positive zeros of $Z(t)$
 In 1956, D.H. Lehmer discovered that certain consecutive pairs of zeros $(\gamma_n, \gamma_{n+1})$ have a spacing $\Delta = \gamma_{n+1} - \gamma_n$ that is anomalously small compared to $\Delta_{\text{avg}}$. These are known as \textbf{Lehmer pairs}. The first famous example (zeros 6709 and 6710) occurs at $t \approx 7005$ with $\Delta \approx 0.0377$, which is about 12 times smaller than the average spacing.
 
 Classical methods for locating these zeros rely on a fine sweep of the real axis, which is computationally expensive at high altitudes and prone to round-off errors. In this note, we propose an alternative approach: starting from a local extremum $c_0$ of $Z(t)$ (where $Z'(c_0) = 0$), we reconstruct the two adjacent zeros $t_1, t_2$ via a truncated Taylor expansion, whose coefficients are extracted using numerical integration.
-
+All numerical experiments, Python scripts, and datasets supporting the findings of this study are openly available in the GitHub repository at: https://github.com/haddagannour-droid/Lehmer-pairs-signature
 
 \documentclass[11pt, a4paper]{article}
 
